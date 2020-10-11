@@ -19,23 +19,23 @@ module.exports = {
     {
       use: 'gridsome-plugin-pwa',
       options: {
-          title: 'Gridsome Shopify Starter',
-          description: 'PWA Headless ecommerce Gridsome Shopify starter',// Optional
-          startUrl: '/',
-          display: 'standalone',
-          gcm_sender_id: undefined,
-          statusBarStyle: 'default',
-          manifestPath: 'manifest.json',
-          disableServiceWorker: true,
-          serviceWorkerPath: 'service-worker.js',
-          cachedFileTypes: 'js,json,css,html,png,jpg,jpeg,svg',
-          shortName: 'Gridsome Shopify',
-          themeColor: '#000000',
-          lang: "en-US",
-          backgroundColor: '#000000',
-          icon: './src/favicon.png', // must be provided like 'src/favicon.png'
-          msTileImage: 'Gridsome Shopify',
-          msTileColor: '#000000'
+        title: 'Gridsome Shopify Starter',
+        description: 'PWA Headless ecommerce Gridsome Shopify starter',// Optional
+        startUrl: '/',
+        display: 'standalone',
+        gcm_sender_id: undefined,
+        statusBarStyle: 'default',
+        manifestPath: 'manifest.json',
+        disableServiceWorker: true,
+        serviceWorkerPath: 'service-worker.js',
+        cachedFileTypes: 'js,json,css,html,png,jpg,jpeg,svg',
+        shortName: 'Gridsome Shopify',
+        themeColor: '#000000',
+        lang: "en-US",
+        backgroundColor: '#000000',
+        icon: './src/favicon.png', // must be provided like 'src/favicon.png'
+        msTileImage: 'Gridsome Shopify',
+        msTileColor: '#000000'
       }
     },
     {
@@ -64,7 +64,7 @@ module.exports = {
     {
       use: '@gridsome/plugin-google-analytics',
       options: {
-        id: ''
+        id: '123'
       }
     },
     {
